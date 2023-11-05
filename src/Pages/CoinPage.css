@@ -1,0 +1,74 @@
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tabs label {
+    order: 1;
+    display: block;
+    padding: 1rem 2rem;
+    margin-right: 0.2rem;
+    cursor: pointer;
+    background:  white;
+    font-weight: bold;
+    margin: 1vh;
+    transition: background ease 0.2s;
+  }
+  
+  .tabs .tab {
+    order: 99;
+    flex-grow: 1;
+    width: 100%;
+    display: none;
+    padding: 1rem;
+    background: #fff;
+    margin: 0.8vh;
+    border-radius: 11px;
+  }
+  
+  .tabs input[type="radio"] {
+    display: none;
+  }
+  
+  .tabs input[type="radio"]:checked + label {
+    background: #3CC0F8;
+    border-radius: 12px 12px 0 12px;
+  }
+  
+  .tabs input[type="radio"]:checked + label + .tab {
+    display: block;
+  }
+  
+  @media (max-width: 45em) {
+    .tabs .tab,
+    .tabs label {
+      order: initial;
+    }
+  
+    .tabs label {
+      width: 100%;
+      margin-right: 0;
+      margin-top: 0.2rem;
+    }
+  }
+  
+
+
+
+
+
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1); /* Start with normal size */
+    }
+    50% {
+      transform: scale(0.95); /* Zoom in to 120% of original size */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+    }
+  }
+  
+  .zoominoutInfinite {
+    animation: zoomInOut 2s infinite; /* Apply the animation with a 2-second duration and infinite loop */
+  }

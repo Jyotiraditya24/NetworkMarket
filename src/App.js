@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <ToastContainer />
-      <div className="homeSpinner d-none" id="spinner" style={{position:'fixed',top:0,bottom:0,left:0,right:0,display:'flex',justifyContent:'center',alignItems:'center',zIndex:'99999',backgroundColor:'#f5deb36e'}}>
+      <div className="homeSpinner d-none " id="spinner" style={{position:'fixed',top:0,bottom:0,left:0,right:0,display:'flex',justifyContent:'center',alignItems:'center',zIndex:'99999',backgroundColor:'#f5deb36e'}}>
            <ScaleLoader color="#36d7b7" />
         </div>
       <Router>

@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+body {
+    background: #f9f9f9;
+    font-family: "Roboto", sans-serif;
+}
+
+.shadow {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+    text-align: left;
+}
+
+.profile-tab-nav {
+    min-width: 250px;
+}
+
+.tab-content {
+    flex: 1;
+    min-height: 67vh;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.nav-pills a.nav-link {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    color: #333;
+}
+
+.nav-pills a.nav-link i {
+    width: 20px;
+}
+
+.img-circle img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 5px solid #fff;
+}
+
+.Profilecontainer {
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+
+
+body {
+    margin: 0;
+    /* background: linear-gradient(45deg, #49a09d, #5f2c82); */
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.TableProfcontainer {
+    color: black;
+    width: 100%;
+}
+
+.ProfileNetwordtable {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.ProfileNetwordtable th,
+td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.ProfileNetwordtable th {
+    text-align: left;
+}
+
+.ProfileNetwordtable thead th {
+    background-color: #55608f;
+}
+
+.ProfileNetwordtable tbody tr {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.ProfileNetwordtable tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.ProfileNetwordtable tbody tr td {
+    position: relative;
+    color: black;
+}
+
+.ProfileNetwordtable tbody tr td:hover::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+}
+
+.profileBackIcon {
+    font-weight: 1000;
+    font-size: 1rem;
+    font-family: fantasy;
+    background: white;
+    text-decoration: none;
+    padding: 1vh;
+    border-radius: 4px;
+    padding-top: 5.1px;
+    margin: 1vh;
+    box-shadow: 0 0 2px black;
+}
+.profileBackIcon:hover{
+    text-decoration: none;
+    text-decoration-line: none;
+    box-shadow: 0 0 5px black;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+
+  body {
+    background-color: #efefef;
+  }
+  
+  .profile-pic {
+      width: 200px;
+      max-height: 200px;
+      display: inline-block;
+  }
+  
+  .file-upload {
+      display: none;
+  }
+  .circle {
+      border-radius: 100% !important;
+      overflow: hidden;
+      width: 128px;
+      height: 128px;
+      border: 2px solid rgb(169 164 164 / 20%);
+      top: 72px;
+  }
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+  .p-image {
+    color: #666666;
+    display: flex;
+    align-items: end;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  }
+  .p-image:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  }
+  .upload-button {
+    font-size: 1.2em;
+  }
+  
+  .upload-button:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    color: #999;
+  }

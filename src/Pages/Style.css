@@ -1,0 +1,37 @@
+@keyframes zoomAndFade {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      opacity: 1; /* Start with full opacity */
+    }
+    100% {
+      transform: scale(1.5); /* Zoom to 150% of original size */
+      opacity: 0.9; /* Fade to 40% opacity */
+    }
+  }
+  
+  .splashScreenCss {
+    animation: zoomAndFade 4s ease-out; /* Apply the animation to your component */
+  }
+
+
+  .remove-scrollbar::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    color: transparent;
+    background-color: transparent;
+  }
+
+  .remove-scrollbar::-webkit-scrollbar-track{
+    width: 0;
+    height: 0;
+    color: transparent;
+    background-color: transparent;
+  }
+  .remove-scrollbar::-webkit-scrollbar-thumb{
+    width: 0;
+    height: 0;
+    color: transparent;
+    background-color: transparent;
+  }
+
+  
